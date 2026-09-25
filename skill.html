@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LegalEase - AI Powered Legal Document</title>
+
+    <link rel="stylesheet" href="./skill.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>⚖️ LegalEase</h1>
+        <p>AI-Powered Legal Document Assistant</p>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h2>Understand Your Legal Documents Easily</h2>
+            <p>
+                Upload or enter your legal document and get a simple
+                explanation of the important information.
+            </p>
+        </section>
+
+        <section class="document-box">
+
+            <h2>📄 Legal Document Analyzer</h2>
+
+            <label for="document">
+                Enter your legal document:
+            </label>
+
+            <textarea
+                id="document"
+                placeholder="Paste your legal document here..."
+            ></textarea>
+
+            <button onclick="analyzeDocument()">
+                🔍 Analyze Document
+            </button>
+
+            <div id="result" class="result">
+                <h3>Analysis Result</h3>
+                <p id="resultText">
+                    Your analysis will appear here.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 LegalEase | AI-Powered Legal Assistant</p>
+    </footer>           
+
+    <script src="./skill.js"></script>
+
+</body>
+</html>
